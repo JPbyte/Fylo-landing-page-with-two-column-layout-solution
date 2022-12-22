@@ -24,6 +24,80 @@ header nav a:hover {
   transform: translateY(-0.17rem);
 }
 
+#first_section {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+}
+#first_section article {
+  width: 50%;
+  padding: 6rem 3rem;
+}
+#first_section article h1 {
+  font-size: 2.6rem;
+  line-height: 60px;
+  margin-bottom: 1rem;
+  color: hsl(243deg, 87%, 12%);
+}
+#first_section article p {
+  font-size: 1.2rem;
+  line-height: 25px;
+  color: hsl(238deg, 22%, 44%);
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1.5rem;
+}
+#first_section article #text {
+  width: 10%;
+  max-width: 22rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0rem 3rem;
+  border: 0.13rem black solid;
+  border-radius: 0.3rem;
+  background: url(../images/mail.svg) no-repeat;
+  background-size: 2rem;
+  background-position-x: 0.5rem;
+  background-position-y: 0.5rem;
+  transition: width 0.4s ease-in-out;
+  margin-right: 1rem;
+}
+#first_section article #text::-moz-placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#first_section article #text:-ms-input-placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#first_section article #text::placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#first_section article #text:focus {
+  width: 100%;
+}
+#first_section article #btn {
+  width: 100%;
+  max-width: 14rem;
+  height: 3rem;
+  background-color: hsl(224deg, 93%, 58%);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: 0.4s;
+}
+#first_section article #btn:hover {
+  transform: translateY(-0.2rem);
+}
+#first_section .hero_image {
+  width: 50%;
+  padding: 2rem;
+}
+#first_section .hero_image img {
+  width: 100%;
+  height: 30rem;
+}
+
 * {
   padding: 0;
   margin: 0;
