@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
   <link rel="stylesheet" href="scss/main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -24,22 +25,50 @@
         <h1>All your files in one secure location, acessible anywhere.</h1>
           <p>Fylo stores your most important files in one secure location.
             Access them wherever your need, share and collaborate with friends, family,
-            and co-workers.
-          </p>
-            <input type="text" id="text" placeholder="Enter your email...">
-              <input type="submit" id="btn" value="Get started">
+            and co-workers.</p>
+              <form action="">
+                <input type="text" id="text" placeholder="Enter your email...">
+                  <input type="submit" id="btn" value="Get started">
+              </form>
       </article>
       <div class="hero_image">
         <img src="images/illustration-1.svg" alt="illustration-1">
+      </div>
+    </section>
+    <div class="background"></div>
+    <section id="secund_section">
+      <article>
+        <h2 data-aos="fade-right">Stay productive, wherever you are</h2>
+          <p class="never" data-aos="fade-right">Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.</p>
+            <p class="never" data-aos="fade-right">Securely share files and folders with friends, family and colleagues
+              for live collaboration. No email attachments required!</p>
+                <a href="#" data-aos="fade-right">See how fylo works <img src="images/icon-arrow.svg" alt="icon-arrow"></a>
+                  <div class="card" data-aos="fade-right">
+                    <img class="quotes" src="images/icon-quotes.svg" alt="quotes">
+                    <p class="card_p">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+                      become a well-oiled collaboration machine.</p>
+                        <div class="profile_card">
+                          <img src="images/avatar-testimonial.jpg" alt="avatar-testimonial">
+                            <div class="name_profile">
+                              <h3>Kyle Burton</h3>
+                                <p class="founder">Founder & CEO, Huddle</p>
+                            </div>
+                        </div>
+                  </div>
+      </article>
+      <div class="image_secund">
+        <img src="images/illustration-2.svg" alt="illustration-2">
       </div>
     </section>
   </main>
   <footer>
 
   </footer>
-<!-- <p class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="#">Your Name Here</a>.
-</p> -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

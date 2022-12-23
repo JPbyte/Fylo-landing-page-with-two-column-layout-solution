@@ -1,0 +1,106 @@
+
+.background{
+    width: 100%;
+    height: 7rem;
+    background: url(../images/bg-curve-desktop.svg) no-repeat;
+}
+#secund_section{
+    height: 41rem;
+    padding: 3rem;
+    display: flex;
+    background-color: $Light-Grayish-Blue;
+        article{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+                h2{
+                    font-size: 2.3rem;
+                    color: $Very-Dark-Blue;
+                }
+                .never{
+                    width: 100%;
+                    max-width: 38rem;
+                    font-size: 1.1rem;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 600;
+                    color: $Very-Dark-Blue;
+                }
+                a{
+                    width: 100%;
+                    max-width: 11.3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 1.1rem;
+                    color: $Moderate-Cyan;
+                    border-bottom: 0.06rem $Moderate-Cyan solid;
+                        img{
+                            transition: 0.4s;
+                            &:hover{
+                                transform: translateX(0.3rem);
+                            }
+                        }
+                }
+                .card{
+                    width: 100%;
+                    max-width: 25rem;
+                    height: 17rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 2rem;
+                    background-color: white;
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.03);
+                    transition: 0.4s;
+                        .quotes{
+                            width: 100%;
+                            max-width: 1rem;
+                        }
+                        .card_p{
+                            font-size: 1rem;
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 700;
+                            line-height: 1.7rem;
+                            color: $Desaturated-Blue;
+                        }
+                        .profile_card{
+                            width: 100%;
+                            max-width: 12rem;
+                            justify-content: space-between;
+                            display: flex;
+                                img{
+                                    width: 100%;
+                                    max-width: 2rem;
+                                    border-radius: 50%;
+                                }
+                                .name_profile{
+                                    height: 2.7rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                        h3{
+                                            font-family: 'Open Sans', sans-serif;
+                                            color: $Very-Dark-Blue;
+                                        }
+                                        .founder{
+                                            font-size: 0.8rem;
+                                        }
+                                }
+                        }
+                        &:hover{
+                            transform: scale(1.02);
+                        }
+                }
+        }
+        .image_secund{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                img{
+                    width: 100%;
+                    max-width: 40rem;
+                }
+        }
+}
