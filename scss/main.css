@@ -104,6 +104,7 @@ header nav a:hover {
   width: 100%;
   height: 7rem;
   background: url(../images/bg-curve-desktop.svg) no-repeat;
+  background-size: cover;
 }
 
 #secund_section {
@@ -205,6 +206,74 @@ header nav a:hover {
 #secund_section .image_secund img {
   width: 100%;
   max-width: 40rem;
+}
+
+#access {
+  height: 17rem;
+  display: flex;
+  background-color: hsl(238deg, 22%, 44%);
+}
+#access .access_text {
+  width: 50%;
+  height: 17rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#access .access_text h3 {
+  font-size: 2rem;
+  color: hsl(240deg, 75%, 98%);
+}
+#access .access_text p {
+  width: 100%;
+  max-width: 34rem;
+  font-size: 1.1rem;
+  color: hsl(240deg, 75%, 98%);
+}
+#access form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#access form #input_email_two {
+  width: 100%;
+  max-width: 35rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0rem 1.5rem;
+  border: 0.13rem white solid;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  background-color: white;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+#access form #input_email_two::-moz-placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#access form #input_email_two:-ms-input-placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#access form #input_email_two::placeholder {
+  color: hsl(0deg, 0%, 75%);
+}
+#access form #input_submit_two {
+  width: 100%;
+  max-width: 14rem;
+  height: 3rem;
+  background-color: hsl(224deg, 93%, 58%);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: 0.4s;
+}
+#access form #input_submit_two:hover {
+  transform: translateX(0.2rem);
 }
 
 * {
