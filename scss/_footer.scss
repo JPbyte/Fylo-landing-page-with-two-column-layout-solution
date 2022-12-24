@@ -1,0 +1,94 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $Very-Dark-Blue;
+        .logo{
+            width: 100%;
+            padding: 3rem;
+            img{
+                width: 100%;
+                max-width: 11rem;
+                filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(313deg) brightness(105%) contrast(101%);
+            }
+        }
+        .contacts{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+                .phone_email{
+                    height: 9.2rem;
+                    padding: 0rem 3.5rem;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                        .phone{
+                            width: 100%;
+                            max-width: 9.3rem;
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 0.5rem;
+                        }
+                        .email{
+                            width: 100%;
+                            max-width: 10.7rem;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                }
+                .social{
+                    ul{
+                        width: 100%;
+                        max-width: 8rem;
+                        display: flex;
+                        justify-content: space-between;
+                        list-style: none;
+                            li{
+                                width: 100%;
+                                max-width: 2rem;
+                                filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(313deg) brightness(105%) contrast(101%);
+                            }
+                    }
+                }
+        }
+        .about{
+            ul{
+                width: 100%;
+                max-width: 6rem;
+                list-style: none;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 8rem;
+                    li{
+                        font-family: 'Open Sans', sans-serif;
+                        transition: 0.4s;
+                        cursor: pointer;
+                            &:hover{
+                                color: $Bright-Blue;
+                                transform: translateX(0.10rem);
+                            }
+                    }
+            }
+        }
+        .about:nth-child(2){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about:nth-child(3){
+            ul{
+                height: 6rem;
+            }
+        }
+        .social{
+            ul{
+                cursor: pointer;
+                    li{
+                        transition: 0.4s;
+                        &:hover{
+                            transform: translateY(-0.20rem);
+                        }
+                    }
+            }
+        }
+}

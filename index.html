@@ -6,7 +6,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
   <link rel="stylesheet" href="scss/main.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -75,12 +74,38 @@
     </div>
   </main>
   <footer>
-
+    <div class="logo" data-aos="fade-right">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <div class="contacts">
+      <div class="phone_email" data-aos="fade-right">
+        <p class="phone"><span><img src="images/icon-phone.svg" alt="icon-phone"></span>+1-543-123-4567</p>
+          <p class="email"><span><img src="images/icon-email.svg" alt="icon-email"></span>example@fylo.com</p>
+      </div>
+      <div class="about" data-aos="fade-down">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="about" data-aos="fade-down">
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+      <div class="social">
+        <ul>
+          <li><img src="images/logo-facebook.svg" alt="logo-facebook"></li>
+          <li><img src="images/logo-twitter.svg" alt="logo-twitter"></li>
+          <li><img src="images/logo-instagram.svg" alt="logo-instagram"></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 </body>
 </html>

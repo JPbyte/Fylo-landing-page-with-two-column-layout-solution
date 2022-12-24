@@ -276,6 +276,93 @@ header nav a:hover {
   transform: translateX(0.2rem);
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(243deg, 87%, 12%);
+}
+footer .logo {
+  width: 100%;
+  padding: 3rem;
+}
+footer .logo img {
+  width: 100%;
+  max-width: 11rem;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(313deg) brightness(105%) contrast(101%);
+}
+footer .contacts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer .contacts .phone_email {
+  height: 9.2rem;
+  padding: 0rem 3.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+footer .contacts .phone_email .phone {
+  width: 100%;
+  max-width: 9.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+footer .contacts .phone_email .email {
+  width: 100%;
+  max-width: 10.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contacts .social ul {
+  width: 100%;
+  max-width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .contacts .social ul li {
+  width: 100%;
+  max-width: 2rem;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(313deg) brightness(105%) contrast(101%);
+}
+footer .about ul {
+  width: 100%;
+  max-width: 6rem;
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+footer .about ul li {
+  font-family: "Open Sans", sans-serif;
+  transition: 0.4s;
+  cursor: pointer;
+}
+footer .about ul li:hover {
+  color: hsl(224deg, 93%, 58%);
+  transform: translateX(0.1rem);
+}
+footer .about:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .about:nth-child(3) ul {
+  height: 6rem;
+}
+footer .social ul {
+  cursor: pointer;
+}
+footer .social ul li {
+  transition: 0.4s;
+}
+footer .social ul li:hover {
+  transform: translateY(-0.2rem);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -287,4 +374,5 @@ header nav a:hover {
 body {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }/*# sourceMappingURL=main.css.map */
