@@ -21,4 +21,28 @@ header{
                         }
                 }
         }
+@media (max-width: 425px) {
+    max-width: 26rem;
+    padding: 0rem;
+    justify-content: space-around;
+        .image_logo{
+            width: 100%;
+            max-width: 4rem;
+            img{
+                width: 6rem;
+                height: 2rem;
+            }
+        }
+        nav{
+            max-width: 10rem;
+            a{
+                font-size: 0.7rem;
+            }
+        }
+}
+@media (max-width: 320px) {
+        nav{
+            max-width: 9rem;
+        }
+}
 }

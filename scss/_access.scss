@@ -57,5 +57,41 @@
                             transform: translateX(0.20rem);
                         }
                 }
-        }         
+        }
+@media(max-width: 950px) {
+    height: 21rem;
+    flex-direction: column;
+    align-items: center;
+        .access_text{
+            width: 100%;
+            max-width: 23rem;
+            height: 12rem;
+            padding: 0;
+                h3{
+                    text-align: center;
+                }
+                p{
+                    width: 100%;
+                    max-width: 22rem;
+                    text-align: center;
+                }
+        }
+        form{
+            width: 100%;
+            max-width: 19rem;
+                #input_submit_two{
+                    max-width: 19rem;
+                }
+        }
+}      
+@media (max-width: 425px) {
+    .access_text{
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}
 }

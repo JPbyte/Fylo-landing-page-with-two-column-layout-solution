@@ -4,6 +4,10 @@
     height: 7rem;
     background: url(../images/bg-curve-desktop.svg) no-repeat;
     background-size: cover;
+@media (max-width: 950px) {
+    background: url(../images/bg-curve-mobile.svg) no-repeat;
+    background-size: cover;
+}
 }
 #secund_section{
     height: 41rem;
@@ -104,4 +108,55 @@
                     max-width: 40rem;
                 }
         }
+@media (max-width: 950px) {
+    height: 70rem;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+        article{
+            width: 100%;
+            max-width: 25rem;
+            height: 37rem;
+            h2{
+                text-align: center;
+                font-size: 1.6rem;
+            }
+            .never{
+                font-size: 1.2rem;
+            }
+        }
+        .image_secund{
+            width: 100%;
+            max-width: 30rem;
+            margin-bottom: 3.7rem;
+        }
+}
+@media (max-width: 425px) {
+    article{
+        h2{
+            font-size: 1.5rem;
+        }
+        .never{
+            font-size: 1rem;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+    .image_secund{
+        max-width: 20rem;
+    }
+}
+@media (max-width: 320px) {
+    article{
+        max-width: 18rem;
+        h2{
+            font-size: 1.1rem;
+        }
+    }
+    .image_secund{
+        max-width: 15rem;
+    }
+}
 }

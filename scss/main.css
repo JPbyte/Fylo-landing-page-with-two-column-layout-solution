@@ -23,6 +23,32 @@ header nav a:hover {
   color: black;
   transform: translateY(-0.17rem);
 }
+@media (max-width: 425px) {
+  header {
+    max-width: 26rem;
+    padding: 0rem;
+    justify-content: space-around;
+  }
+  header .image_logo {
+    width: 100%;
+    max-width: 4rem;
+  }
+  header .image_logo img {
+    width: 6rem;
+    height: 2rem;
+  }
+  header nav {
+    max-width: 10rem;
+  }
+  header nav a {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 320px) {
+  header nav {
+    max-width: 9rem;
+  }
+}
 
 #first_section {
   width: 100%;
@@ -99,6 +125,79 @@ header nav a:hover {
   width: 100%;
   height: 30rem;
 }
+@media (max-width: 1024px) {
+  #first_section article {
+    width: 70%;
+    padding: 6rem 3rem;
+  }
+  #first_section .hero_image {
+    width: 30%;
+  }
+}
+@media (max-width: 950px) {
+  #first_section {
+    height: 68rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #first_section article {
+    width: 100%;
+    max-width: 30rem;
+    padding: 0;
+  }
+  #first_section article h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  #first_section article p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  #first_section article form {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #first_section article form #text {
+    max-width: 29rem;
+  }
+  #first_section article form #btn {
+    max-width: 29rem;
+  }
+  #first_section .hero_image {
+    width: 100%;
+    max-width: 40rem;
+    padding: 0;
+  }
+}
+@media (max-width: 425px) {
+  #first_section {
+    justify-content: space-evenly;
+  }
+  #first_section article {
+    max-width: 18rem;
+  }
+  #first_section article h1 {
+    width: 100%;
+    max-width: 18.5rem;
+    font-size: 1.5rem;
+  }
+  #first_section article p {
+    font-size: 1rem;
+  }
+  #first_section .hero_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 12rem;
+  }
+  #first_section .hero_image img {
+    width: 100%;
+    max-width: 12rem;
+    height: 20rem;
+  }
+}
 
 .background {
   width: 100%;
@@ -106,12 +205,18 @@ header nav a:hover {
   background: url(../images/bg-curve-desktop.svg) no-repeat;
   background-size: cover;
 }
+@media (max-width: 950px) {
+  .background {
+    background: url(../images/bg-curve-mobile.svg) no-repeat;
+    background-size: cover;
+  }
+}
 
 #secund_section {
   height: 41rem;
   padding: 3rem;
   display: flex;
-  background-color: hsl(240deg, 75%, 98%);
+  background-color: hsl(240deg, 80%, 98%);
 }
 #secund_section article {
   width: 50%;
@@ -207,6 +312,57 @@ header nav a:hover {
   width: 100%;
   max-width: 40rem;
 }
+@media (max-width: 950px) {
+  #secund_section {
+    height: 70rem;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+  }
+  #secund_section article {
+    width: 100%;
+    max-width: 25rem;
+    height: 37rem;
+  }
+  #secund_section article h2 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  #secund_section article .never {
+    font-size: 1.2rem;
+  }
+  #secund_section .image_secund {
+    width: 100%;
+    max-width: 30rem;
+    margin-bottom: 3.7rem;
+  }
+}
+@media (max-width: 425px) {
+  #secund_section article h2 {
+    font-size: 1.5rem;
+  }
+  #secund_section article .never {
+    font-size: 1rem;
+  }
+  #secund_section article a {
+    font-size: 1rem;
+  }
+  #secund_section .image_secund {
+    max-width: 20rem;
+  }
+}
+@media (max-width: 320px) {
+  #secund_section article {
+    max-width: 18rem;
+  }
+  #secund_section article h2 {
+    font-size: 1.1rem;
+  }
+  #secund_section .image_secund {
+    max-width: 15rem;
+  }
+}
 
 #access {
   height: 17rem;
@@ -223,13 +379,13 @@ header nav a:hover {
 }
 #access .access_text h3 {
   font-size: 2rem;
-  color: hsl(240deg, 75%, 98%);
+  color: hsl(240deg, 80%, 98%);
 }
 #access .access_text p {
   width: 100%;
   max-width: 34rem;
   font-size: 1.1rem;
-  color: hsl(240deg, 75%, 98%);
+  color: hsl(240deg, 80%, 98%);
 }
 #access form {
   width: 50%;
@@ -274,6 +430,42 @@ header nav a:hover {
 }
 #access form #input_submit_two:hover {
   transform: translateX(0.2rem);
+}
+@media (max-width: 950px) {
+  #access {
+    height: 21rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  #access .access_text {
+    width: 100%;
+    max-width: 23rem;
+    height: 12rem;
+    padding: 0;
+  }
+  #access .access_text h3 {
+    text-align: center;
+  }
+  #access .access_text p {
+    width: 100%;
+    max-width: 22rem;
+    text-align: center;
+  }
+  #access form {
+    width: 100%;
+    max-width: 19rem;
+  }
+  #access form #input_submit_two {
+    max-width: 19rem;
+  }
+}
+@media (max-width: 425px) {
+  #access .access_text h3 {
+    font-size: 1.5rem;
+  }
+  #access .access_text p {
+    font-size: 1rem;
+  }
 }
 
 footer {
@@ -361,6 +553,33 @@ footer .social ul li {
 }
 footer .social ul li:hover {
   transform: translateY(-0.2rem);
+}
+@media (max-width: 950px) {
+  footer {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+  footer .contacts {
+    width: 100%;
+    max-width: 10.7rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .contacts .phone_email {
+    padding: 0;
+    height: 5.2rem;
+  }
+  footer .contacts .about {
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  footer .contacts .social {
+    width: 100%;
+    display: flex;
+  }
 }
 
 * {

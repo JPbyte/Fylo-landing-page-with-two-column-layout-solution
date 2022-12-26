@@ -91,4 +91,29 @@ footer{
                     }
             }
         }
+@media (max-width: 950px) {
+    justify-content: center;
+    align-items: center;
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        .contacts{
+            width: 100%;
+            max-width: 10.7rem;
+            grid-template-columns: repeat(1, 1fr);
+                .phone_email{
+                    padding: 0;
+                    height: 5.2rem;
+                }
+                .about{
+                    align-items: flex-start;
+                    margin-bottom: 1rem;
+                }
+                .social{
+                    width: 100%;
+                    display: flex;
+                }
+        }
+}
 }
