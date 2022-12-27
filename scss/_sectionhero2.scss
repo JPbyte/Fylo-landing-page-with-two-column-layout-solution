@@ -148,6 +148,11 @@
         max-width: 20rem;
     }
 }
+@media (max-width: 375px) {
+    article{
+        max-width: 22rem;
+}
+}
 @media (max-width: 320px) {
     article{
         max-width: 18rem;

@@ -5,7 +5,6 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -13,11 +12,16 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ## Overview
 
-### The challenge
-
-
-
 ### Screenshot
+
+Mobile design
+
+![](design/mobile-design.jpg)
+
+Desktop design
+
+![](desigN/desktop-design.jpg)
+
 
 ### Links
 
@@ -29,7 +33,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SASS/SCSS
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- JAVASCRIPT 

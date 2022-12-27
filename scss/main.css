@@ -352,6 +352,11 @@ header nav a:hover {
     max-width: 20rem;
   }
 }
+@media (max-width: 375px) {
+  #secund_section article {
+    max-width: 22rem;
+  }
+}
 @media (max-width: 320px) {
   #secund_section article {
     max-width: 18rem;
