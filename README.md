@@ -20,13 +20,13 @@ Mobile design
 
 Desktop design
 
-![](desigN/desktop-design.jpg)
+![](design/desktop-design.jpg)
 
 
 ### Links
 
-- Solution URL: [Fylo landing page with two column layout solution]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Fylo landing page with two column layout solution](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-vZdGhC-dkB)
+- Live Site URL: [Add live site URL here](https://jpbyte.github.io/Fylo-landing-page-with-two-column-layout-solution/)
 
 ## My process
 
